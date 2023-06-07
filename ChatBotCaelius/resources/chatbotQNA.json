@@ -1,0 +1,152 @@
+[
+	 {
+		"question":"What is Java?", 
+		"answer":"Java is a high-level, object-oriented programming language."},
+	 {
+		"question":"What is the difference between JDK and JRE?", 
+		"answer":"JDK (Java Development Kit) is a software development kit that includes tools for developing Java applications, while JRE (Java Runtime Environment) is the environment required to run Java applications."},
+	 {
+		"question":"What are the main principles of object-oriented programming (OOP)?", 
+		"answer":"The main principles of OOP are encapsulation, inheritance, and polymorphism."},
+	 {
+		"question":"What is a class in Java?", 
+		"answer":"A class in Java is a blueprint or template for creating objects that define their properties and behavior."},
+	 {
+		"question":"What is the difference between an object and a class?", 
+		"answer":"A class is a blueprint for creating objects, while an object is an instance of a class."},
+	 {
+		"question":"What is the difference between an abstract class and an interface?", 
+		"answer":"An abstract class can have both abstract and non-abstract methods, while an interface can only have abstract methods."},
+	 {
+		"question":"What is the purpose of the \"static\" keyword in Java?", 
+		"answer":"The \"static\" keyword is used to create class-level variables and methods that can be accessed without creating an instance of the class."},
+	 {
+		"question":"What is method overloading in Java?", 
+		"answer":"Method overloading is the ability to define multiple methods with the same name but different parameters in a class."},
+	 {
+		"question":"What is method overriding in Java?", 
+		"answer":"Method overriding is the ability to provide a different implementation of a method in a subclass that is already defined in its superclass."},
+	 {
+		"question":"What is a constructor in Java?", 
+		"answer":"A constructor is a special method used to initialize objects. It has the same name as the class and is called when an object is created."},
+	 {
+		"question":"What is the difference between checked and unchecked exceptions in Java?", 
+		"answer":"Checked exceptions are checked at compile-time and must be declared in the method signature or handled using a try-catch block, while unchecked exceptions do not require explicit handling."},
+	 {
+		"question":"What is a package in Java?", 
+		"answer":"A package is a way to organize classes and interfaces into a hierarchical structure to avoid naming conflicts and improve code maintainability."},
+	 {
+		"question":"What is the difference between the \"equals()\" and \"==\" methods in Java?", 
+		"answer":"The \"equals()\" method is used to compare the content of two objects for equality, while the \"==\" operator checks if two object references point to the same memory location."},
+	 {
+		"question":"What is the Java Virtual Machine (JVM)?", 
+		"answer":"The JVM is an abstract machine that enables Java programs to run on any platform by interpreting Java bytecode."},
+	 {
+		"question":"What is a thread in Java?", 
+		"answer":"A thread is a lightweight unit of execution that allows concurrent execution within a program."},
+	 {
+		"question":"What is synchronization in Java?", 
+		"answer":"Synchronization is a mechanism used to control access to shared resources to avoid concurrent conflicts in multithreaded environments."},
+	 {
+		"question":"What is the difference between ArrayList and LinkedList in Java?", 
+		"answer":"ArrayList is implemented as a resizable array, while LinkedList is implemented as a doubly-linked list. ArrayList provides faster element access, while LinkedList is efficient for insertions and deletions."},
+	 {
+		"question":"What is the \"final\" keyword used for in Java?", 
+		"answer":"The \"final\" keyword is used to declare constants, prevent method overriding, and make a class not inheritable."},
+	 {
+		"question":"What is the difference between a stack and a heap in Java?", 
+		"answer":"The stack is used to store method calls and local variables, while the heap is used to store objects and dynamically allocated memory."},
+	 {
+		"question":"What are access modifiers in Java?", 
+		"answer":"Access modifiers (such as private, protected, and public) control the visibility and accessibility of classes, methods, and variables in Java."},
+	 {
+		"question":"What is the \"this\" keyword used for in Java?", 
+		"answer":"The \"this\" keyword is a reference to the current instance of a class and is used to access instance variables and methods."},
+	 {
+		"question":"What is garbage collection in Java?", 
+		"answer":"Garbage collection is an automatic memory management process in Java that frees up memory by reclaiming objects that are no longer needed."},
+	 {
+		"question":"What is the Java API?", 
+		"answer":"The Java API (Application Programming Interface) is a collection of classes and interfaces provided by Java for developers to use in their applications."},
+	 {
+		"question":"What is a static initializer block in Java?", 
+		"answer":"A static initializer block is a block of code that is executed only once when the class is loaded and is used to initialize static variables or perform static initialization tasks."},
+	 {
+		"question":"What are annotations in Java?", 
+		"answer":"Annotations are metadata used to provide additional information or instructions to the compiler or runtime environment."},
+	 {
+		"question":"What is autoboxing and unboxing in Java?", 
+		"answer":"Autoboxing is the automatic conversion of primitive types to their corresponding wrapper classes, and unboxing is the opposite conversion."},
+	 {
+		"question":"What is a lambda expression in Java?", 
+		"answer":"A lambda expression is a concise way to represent an anonymous function and is used to provide a functional interface implementation in a more readable and compact form."},
+	 {
+		"question":"What is the \"try-with-resources\" statement in Java?", 
+		"answer":"The \"try-with-resources\" statement is used to automatically close resources (such as streams) that implement the `AutoCloseable` interface, ensuring proper resource management."},
+	 {
+		"question":"What is the \"transient\" keyword used for in Java?", 
+		"answer":"The \"transient\" keyword is used to indicate that a variable should not be serialized when an object is being converted to a byte stream."},
+	 {
+		"question":"What is the difference between a checked exception and an unchecked exception in Java?", 
+		"answer":"Checked exceptions are checked at compile-time and must be either declared or handled, while unchecked exceptions are not checked at compile-time and do not require explicit handling."},
+	 {
+		"question":"What is the difference between composition and inheritance in Java?", 
+		"answer":"Composition is a way to achieve code reuse by combining objects of different classes, while inheritance is a mechanism for creating a new class (subclass) based on an existing class (superclass)."},
+	 {
+		"question":"What is the Java ternary operator?", 
+		"answer":"The Java ternary operator is a shorthand way to write conditional expressions. It takes three operands and returns one of the two values based on the evaluation of the condition."},
+	 {
+		"question":"What is the difference between a StringBuilder and a StringBuffer in Java?", 
+		"answer":"StringBuilder is not thread-safe and provides better performance, while StringBuffer is thread-safe but may have slightly slower performance."},
+	 {
+		"question":"What is a Java interface?", 
+		"answer":"A Java interface is a collection of abstract methods. It defines a contract that classes must adhere to by implementing those methods."},
+	 {
+		"question":"What is method chaining in Java?", 
+		"answer":"Method chaining is a technique where multiple method calls are chained together in a single line. Each method call returns an object on which the next method is called."},
+	 {
+		"question":"What are varargs in Java?", 
+		"answer":"Varargs (variable arguments) is a feature that allows a method to accept a variable number of arguments of the same type. It is denoted by an ellipsis (...) in the method declaration."},
+	 {
+		"question":"What is the purpose of the \"super\" keyword in Java?", 
+		"answer":"The \"super\" keyword is used to refer to the superclass of a subclass. It can be used to access superclass members, invoke superclass constructors, and differentiate between superclass and subclass members with the same name."},
+	 {
+		"question":"What is method reference in Java?", 
+		"answer":"Method reference is a feature introduced in Java 8 that allows the reuse of existing method implementations as lambda expressions."},
+	 {
+		"question":"What are functional interfaces in Java?", 
+		"answer":"Functional interfaces are interfaces that have exactly one abstract method. They are used to enable functional programming concepts in Java, such as lambda expressions and method references."},
+	 {
+		"question":"What is the difference between an instance variable and a local variable in Java?", 
+		"answer":"An instance variable is declared inside a class but outside any method and is associated with instances of the class. A local variable is declared within a method or block and is only accessible within that scope."},
+	 {
+		"question":"What is the difference between a while loop and a do-while loop in Java?", 
+		"answer":"A while loop tests the loop condition before executing the loop body, while a do-while loop executes the loop body at least once before testing the loop condition."},
+	 {
+		"question":"What is the purpose of the \"break\" statement in Java?", 
+		"answer":"The \"break\" statement is used to exit a loop or switch statement prematurely. It is typically used to terminate a loop when a certain condition is met."},
+	 {
+		"question":"What is the purpose of the \"continue\" statement in Java?", 
+		"answer":"The \"continue\" statement is used to skip the current iteration of a loop and move to the next iteration."},
+	 {
+		"question":"What is the difference between a public class and a default class in Java?", 
+		"answer":"A public class can be accessed from any other class, while a default class (without an access modifier) can only be accessed within the same package."},
+	 {
+		"question":"What is the diamond operator in Java?", 
+		"answer":"The diamond operator (<> or <>) is used to infer the generic type arguments of a generic class instance creation, based on the context."},
+	 {
+		"question":"What is the difference between a shallow copy and a deep copy in Java?", 
+		"answer":"A shallow copy copies the references of the objects fields, while a deep copy creates new copies of the referenced objects as well."},
+	 {
+		"question":"What is the difference between a checked exception and a runtime exception in Java?", 
+		"answer":"Checked exceptions must be either declared or handled, while runtime exceptions (unchecked exceptions) do not require explicit handling or declaration."},
+	 {
+		"question":"What is the difference between a static method and an instance method in Java?", 
+		"answer":"A static method belongs to the class itself and can be called without creating an instance of the class. An instance method is associated with an instance of the class and can only be called on an instance."},
+	 {
+		"question":"What is the purpose of the \"finalizer\" method in Java?", 
+		"answer":"The \"finalizer\" method (also known as the \"finalize\" method) is a method that is automatically called by the garbage collector before an object is reclaimed. It can be used to release resources or perform cleanup operations."},
+	 {
+		"question":"What is the difference between a public variable and a private variable in Java?", 
+		"answer":"A public variable can be accessed and modified directly from any other class, while a private variable can only be accessed and modified within the same class."}
+]
