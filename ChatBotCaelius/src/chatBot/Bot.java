@@ -153,25 +153,17 @@ class Bott extends JFrame {
 				{
 					try
 					{
-						try
-						{
-							// search google
-							URL url=new URL("https://google.co.in");
-							URLConnection connection=url.openConnection();
-							connection.connect();
-							botReply("Here's what I found on the web...");
-							java.awt.Desktop.getDesktop().browse(java.net.URI.create("http://www.google.com/search?hl=en&q="+inputString.replace(" ", "+")+"&btnG=Google+Search"));
-					
-						}
-						catch(Exception ee)
-						{
-							botReply("No Internet connection...");
-						}
-						
+						// search google
+						URL url=new URL("https://google.co.in");
+						URLConnection connection=url.openConnection();
+						connection.connect();
+						botReply("Here's what I found on the web...");
+						java.awt.Desktop.getDesktop().browse(java.net.URI.create("http://www.google.com/search?hl=en&q="+inputString.replace(" ", "+")+"&btnG=Google+Search"));
+				
 					}
-					catch(Exception eee)
+					catch(Exception ee)
 					{
-						botReply("Invalid Input.");
+						botReply("No Internet connection...");
 					}
 				}
 			}
